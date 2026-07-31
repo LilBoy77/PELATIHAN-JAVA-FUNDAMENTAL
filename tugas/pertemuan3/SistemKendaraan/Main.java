@@ -144,7 +144,7 @@ public class Main {
 
     static void hapusData() {
         System.out.println("--- Hapus Data Kendaraan ---");
-        if (daftarKendaraan.isEmpty()) {
+        if (daftarKendaraan.isEmpty()){
             System.out.println("(Belum ada data)");
             return;
         }
